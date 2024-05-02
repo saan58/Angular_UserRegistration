@@ -1,0 +1,10 @@
+<!-- user-list.component.html -->
+
+<div class="container">
+  <h2>User List</h2>
+  <ul>
+      <li *ngFor="let user of users">
+          Full Name: {{ user.fullname }} - Email: {{ user.email }} - Username: {{ user.username }}
+      </li>
+  </ul>
+</div>
